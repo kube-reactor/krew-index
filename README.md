@@ -8,7 +8,7 @@ This repository is automatically updated on tagged releases to the [Reactor](htt
 
 This repository requires Krew installed into your local kubectl installation.
 
-See [Installing Krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/) for information on how to install Krew or your OS.
+See [installing Krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/) for information on how to install Krew for your OS.
 
 ## Usage
 
