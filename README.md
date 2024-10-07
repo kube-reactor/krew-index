@@ -21,5 +21,5 @@ kubectl krew index add zimagi https://github.com/zimagi/krew-index.git
 #
 # Install the Reactor Kubectl plugin
 #
-kubectl krew install reactor
+kubectl krew install zimagi/reactor
 ```
