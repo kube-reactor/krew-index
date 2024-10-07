@@ -1,0 +1,28 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: reactor
+
+spec:
+  version: "v0.1.0"
+  homepage: https://github.com/zimagi/reactor
+  shortDescription: "Kubectl plugin for managing development Kubernetes clusters"
+  description: |
+    Facilitates the creation and initialization, the runtime management, and the
+    destruction and cleaning of local Minikube Kubernetes clusters.  This cluster uses
+    Terraform provisioned and ArgoCD managed cluster service projects to create complete
+    ready to use develop clusters that try to mimic production environment as much
+    as possible.
+
+  platforms:
+  - selector:
+      matchExpressions:
+      - key: "os"
+        operator: "In"
+        values:
+        - darwin
+        - linux
+
+    bin: "./kubectl-reactor"
+    uri: "https://github.com/zimagi/reactor/releases/download/0.1.0/reactor.tar.gz"
+    sha256: "37bbd2249981f62a64247b9d419d385d988438ddf23cd2418057c381fe3f785e"
