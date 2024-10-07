@@ -4,7 +4,7 @@ metadata:
   name: reactor
 
 spec:
-  version: "v0.1.1"
+  version: "v0.1.2"
   homepage: https://github.com/zimagi/reactor
   shortDescription: "Kubectl plugin for managing development Kubernetes clusters"
   description: |
@@ -24,5 +24,5 @@ spec:
         - linux
 
     bin: "./kubectl-reactor"
-    uri: "https://github.com/zimagi/reactor/releases/download/0.1.1/reactor.tar.gz"
-    sha256: "e31f613268bdc77737d7b0f0c450ee1c53364f6ad729454f973d6bd4216047d3"
+    uri: "https://github.com/zimagi/reactor/releases/download/0.1.2/reactor.tar.gz"
+    sha256: "62b7e836d6b089afe13c2470d6980a3f1e7bc6e47f3d9917306b14ebeaabae85"
