@@ -1,8 +1,8 @@
-# Zimagi Krew Index
+# Reactor Krew Index
 
 Temporary Krew Index repository until we get Reactor integrated into the official Krew Index.
 
-This repository is automatically updated on tagged releases to the [Reactor](https://github.com/zimagi/reactor) project.
+This repository is automatically updated on tagged releases to the [Reactor](https://github.com/kube-reactor/core) project.
 
 ## Requirements
 
@@ -14,12 +14,12 @@ See [installing Krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/) f
 
 ```bash
 #
-# Add Zimagi Krew Index to the local Krew installation
+# Add Reactor Krew Index to the local Krew installation
 #
-kubectl krew index add zimagi https://github.com/zimagi/krew-index.git
+kubectl krew index add reactor https://github.com/kube-reactor/krew-index.git
 
 #
 # Install the Reactor Kubectl plugin
 #
-kubectl krew install zimagi/reactor
+kubectl krew install reactor/reactor
 ```
