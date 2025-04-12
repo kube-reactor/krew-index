@@ -4,7 +4,7 @@ metadata:
   name: reactor
 
 spec:
-  version: "v0.4.14"
+  version: "v0.4.15"
   homepage: https://github.com/kube-reactor/core
   shortDescription: "Kubectl plugin for managing development Kubernetes clusters"
   description: |
@@ -24,5 +24,5 @@ spec:
         - linux
 
     bin: "./kubectl-reactor"
-    uri: "https://github.com/kube-reactor/core/releases/download/0.4.14/reactor.tar.gz"
-    sha256: "75e4efa9bc5348f7adf54a5f4dd58c372fdb07eccdc6aaaaeb9ef652cf1421f6"
+    uri: "https://github.com/kube-reactor/core/releases/download/0.4.15/reactor.tar.gz"
+    sha256: "bf11bd636d4481d61296c498a7c6e3d7d3fbc70bbd8d4546f26e3eeda43598da"
